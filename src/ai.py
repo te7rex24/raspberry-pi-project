@@ -11,7 +11,7 @@ import ollama
 import pyttsx3
 
 #VOSK Config
-VOSK_MODEL_PATH = "/Users/te7rex/raspberry-pi-project/modules/vosk-model-en-us-0.22-lgraph"              # Path to VOSK model
+VOSK_MODEL_PATH = "modules/vosk-model-en-us-0.22-lgraph"              # Path to VOSK model
 DEVICE = None                                                                                           # Specify the audio input device (None for default device)
 SAMPLE_RATE = 16000                                                                                     # Audio sample rate (Never change it)
 BLOCK_SIZE = 4096                                                                                       # Define the size of each audio block (Never change it)
